@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_NovaIgra2</class>
+ <widget class="QMainWindow" name="MainWindow_NovaIgra2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #CDEEF7;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>130</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #00394d;
+font-size: 20px;
+font-style: bold;</string>
+    </property>
+    <property name="text">
+     <string>Pogodite tocan ukupan zbroj kamencica!</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>127</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_i1">
+       <property name="styleSheet">
+        <string notr="true">font-style: italic;</string>
+       </property>
+       <property name="text">
+        <string>IGRAC 1:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_i1"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>240</y>
+      <width>127</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_i2">
+       <property name="styleSheet">
+        <string notr="true">font-style: italic;</string>
+       </property>
+       <property name="text">
+        <string>IGRAC 2:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_i2"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>300</y>
+      <width>131</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton1">
+       <property name="styleSheet">
+        <string notr="true">color: #00394d;
+background-color: #e6f8ff;
+font-size: 14px;</string>
+       </property>
+       <property name="text">
+        <string>Pokazi rezultat</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton2">
+       <property name="styleSheet">
+        <string notr="true">color: #00394d;
+background-color: #e6f8ff;
+font-size: 14px;</string>
+       </property>
+       <property name="text">
+        <string>Zatvori igru</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOpcije">
+    <property name="title">
+     <string>Opcije</string>
+    </property>
+    <addaction name="actionSpremi_rezultat"/>
+    <addaction name="separator"/>
+    <addaction name="actionPovratak_na_pocetak"/>
+   </widget>
+   <addaction name="menuOpcije"/>
+  </widget>
+  <action name="actionSpremi_rezultat">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/slike/Slike/spremi.png</normaloff>:/slike/Slike/spremi.png</iconset>
+   </property>
+   <property name="text">
+    <string>Spremi rezultat</string>
+   </property>
+  </action>
+  <action name="actionPovratak_na_pocetak">
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/slike/Slike/ponovi.png</normaloff>:/slike/Slike/ponovi.png</iconset>
+   </property>
+   <property name="text">
+    <string>Povratak na novu igru</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>841</width>
+    <height>527</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #CDEEF7;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>274</x>
+      <y>30</y>
+      <width>281</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">color: #00394d;
+font-size: 40px;
+font-style: bold &quot;Trebuchet MS&quot;;</string>
+       </property>
+       <property name="text">
+        <string>JAPANEZA</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_NovaIgra">
+       <property name="styleSheet">
+        <string notr="true">color: #00394d;
+background-color: #e6f8ff;
+font-size: 14px;</string>
+       </property>
+       <property name="text">
+        <string>Nova igra</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_Pravila">
+       <property name="styleSheet">
+        <string notr="true">color: #00394d;
+background-color: #e6f8ff;
+font-size: 14px;</string>
+       </property>
+       <property name="text">
+        <string>Pravila</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_Zatvori">
+       <property name="styleSheet">
+        <string notr="true">color: #00394d;
+background-color: #e6f8ff;
+font-size: 14px;</string>
+       </property>
+       <property name="text">
+        <string>Zatvori</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="slika">
+       <property name="styleSheet">
+        <string notr="true">align: center;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
