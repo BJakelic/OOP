@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/slike">
+        <file>Slike/japaneza.png</file>
+        <file>Slike/spremi.png</file>
+        <file>Slike/ponovi.png</file>
+    </qresource>
+</RCC>
